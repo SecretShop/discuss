@@ -52,3 +52,11 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Emacs temp files
+*~
+
+# Buildout files
+var/
+bin/
+bootstrap.py
