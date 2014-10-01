@@ -19,3 +19,16 @@ TEMPLATE_DEBUG = DEBUG
 ALLOWED_HOSTS = ["localhost"]
 
 WSGI_APPLICATION = 'discuss.discuss.wsgi_development.application'
+
+
+##########################################################################
+#
+# Database settings
+#
+##########################################################################
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(VAR_DIR, 'db', 'dev_db.sqlite3'),
+    }
+}

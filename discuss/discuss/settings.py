@@ -71,12 +71,10 @@ WSGI_APPLICATION = 'discuss.wsgi.application'
 # Database settings
 #
 ##########################################################################
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(VAR_DIR, 'db', 'db.sqlite3'),
-    }
-}
+
+# The database should *not* be set in this file. It should be set in
+# development.py or production.py instead.
+DATABASES = None
 
 
 ##########################################################################
