@@ -60,3 +60,6 @@ target/
 var/
 bin/
 bootstrap.py
+
+# Secret files
+secret_settings.py
