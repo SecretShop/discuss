@@ -1,3 +1,9 @@
-from django.shortcuts import render
+from django.views.generic.base import TemplateView
 
-# Create your views here.
+
+class TeamList(TemplateView):
+    template_name = "team_list.html"
+
+
+class PostList(TemplateView):
+    template_name = "post_list.html"
