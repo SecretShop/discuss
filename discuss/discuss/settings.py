@@ -49,6 +49,9 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Our apps
+    'discuss.converse',
 )
 
 MIDDLEWARE_CLASSES = (
