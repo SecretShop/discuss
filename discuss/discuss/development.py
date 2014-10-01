@@ -17,3 +17,5 @@ TEMPLATE_DEBUG = DEBUG
 #
 ##########################################################################
 ALLOWED_HOSTS = ["localhost"]
+
+WSGI_APPLICATION = 'discuss.discuss.wsgi_development.application'

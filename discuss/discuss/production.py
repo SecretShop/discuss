@@ -7,3 +7,5 @@ from discuss.discuss.settings import *
 #
 ##########################################################################
 ALLOWED_HOSTS = []
+
+WSGI_APPLICATION = 'discuss.discuss.wsgi_production.application'
