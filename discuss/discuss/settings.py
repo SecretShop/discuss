@@ -61,9 +61,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'discuss.urls'
-
-WSGI_APPLICATION = 'discuss.wsgi.application'
+ROOT_URLCONF = 'discuss.discuss.urls'
 
 
 ##########################################################################
