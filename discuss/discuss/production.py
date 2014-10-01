@@ -4,4 +4,9 @@ from discuss.discuss.settings import *
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
+##########################################################################
+#
+# Server settings
+#
+##########################################################################
 ALLOWED_HOSTS = []
