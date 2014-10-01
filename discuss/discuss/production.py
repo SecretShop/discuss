@@ -6,7 +6,7 @@ from discuss.discuss.settings import *
 # Server settings
 #
 ##########################################################################
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["localhost"]
 
 WSGI_APPLICATION = 'discuss.discuss.wsgi_production.application'
 
