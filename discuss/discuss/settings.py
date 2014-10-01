@@ -66,6 +66,10 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'discuss.discuss.urls'
 
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR, 'templates/'),
+)
+
 
 ##########################################################################
 #
